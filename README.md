@@ -1,23 +1,18 @@
-# v-mvn-repo
-
-Vincent personal maven repository hosted on GitHub repository
+# :file_folder: v-mvn-repo
+Vincent's personal maven repository hosted on GitHub repository
 
 # upload
-suppose you have another project (ex. v-util)
-
-run these maven command for deploying artifacts to this repository
-
-commit and push to GitHub repository
+suppose you have another project (ex. v-util), run these maven command for deploying artifacts
 ```sh
 $ mvn clean deploy -DaltDeploymentRepository=release-repo::default::file:~/GitHub/v-mvn-repo/releases
 $ mvn clean deploy -DaltDeploymentRepository=snapshot-repo::default::file:~/GitHub/v-mvn-repo/snapshots
-
+$ cd ~/GitHub/v-mvn-repo
 $ git commit -m "message"
 $ git push
 ```
 
 # import artifact in other project
-Add following block in your pom.xml
+add following block in your pom.xml
 
 * maven
 ```xml
