@@ -1,7 +1,7 @@
 # :file_folder: v-mvn-repo
 Vincent's personal maven repository hosted on GitHub repository
 
-# upload
+# Upload
 suppose you have another project (ex. v-util), run these maven command for deploying artifacts
 ```sh
 $ mvn clean deploy -DaltDeploymentRepository=release-repo::default::file:~/GitHub/v-mvn-repo/releases
@@ -11,7 +11,7 @@ $ git commit -m "message"
 $ git push
 ```
 
-# import artifact in other project
+# Import Artifact in Other Project
 add following block in your pom.xml
 
 * maven
@@ -43,4 +43,12 @@ dependencies {
 }
 ```
 
+# Author
+Jian-Min Huang
 
+# License
+[MIT License][license-page]
+
+Copyright (c) 2017 Jian-Min Huang
+
+[license-page]: <https://github.com/Jian-Min-Huang/v-mvn-repo/blob/develop/LICENSE>
