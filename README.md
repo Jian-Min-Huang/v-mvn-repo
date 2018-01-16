@@ -1,4 +1,4 @@
-# :file_folder: v-mvn-repo
+# :file_folder: v-mvn-repo ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 Vincent's personal maven repository hosted on GitHub repository
 
 # Upload
